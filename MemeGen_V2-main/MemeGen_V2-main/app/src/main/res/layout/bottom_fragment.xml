@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/duck">
+
+    <TextView
+        android:id="@+id/memeTopText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Text"
+        android:textColor="#ba160c"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/memeBottomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Text"
+        android:textColor="#ba160c"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"/>
+
+
+
+
+
+</RelativeLayout>

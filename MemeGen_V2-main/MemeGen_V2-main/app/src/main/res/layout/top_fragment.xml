@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#1b1b1b"
+
+    >
+
+    <TextView
+        android:id="@+id/pageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Dark Meme App"
+        android:textColor="#8bbe1b"
+        android:layout_margin="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textTopHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/pageHeader"
+        android:text="Input Top Text   : "
+        android:textColor="#8bbe1b" />
+
+
+    <EditText
+        android:id="@+id/textTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textTopHeader"
+        android:layout_below="@+id/pageHeader"
+        android:layout_margin="15dp"
+        android:width="250dp"
+        android:textColor="#010203"
+        android:background="#8bbe1b"/>
+    <TextView
+        android:id="@+id/textBottomHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/textTopHeader"
+        android:text="Input Bottom Text : "
+        android:textColor="#8bbe1b" />
+
+    <EditText
+        android:id="@+id/textBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTop"
+        android:layout_toRightOf="@+id/textBottomHeader"
+        android:layout_marginTop="15dp"
+        android:width="250dp"
+        android:textColor="#010203"
+        android:background="#8bbe1b"/>
+
+    <Button
+        android:id="@+id/runButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#010b13"
+        android:text="Generate Meme"
+        android:textColor="#ffff" />
+
+
+</RelativeLayout>
